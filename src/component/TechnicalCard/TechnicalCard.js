@@ -4,7 +4,7 @@ import { FaInfoCircle } from "react-icons/fa";
 
 const TechnicalCard = () => {
     return (
-        <Card >
+        <Card className='shadow' >
             <Card.Header as="h5" className='d-flex justify-content-center bg-dark text-white'>
                 <h5>Technical Project Management</h5>
                 <div className='position-absolute end-0 me-4'>

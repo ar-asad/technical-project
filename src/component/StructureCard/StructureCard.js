@@ -5,7 +5,7 @@ import { Card, Col, Form } from 'react-bootstrap';
 
 const StructureCard = () => {
     return (
-        <Card>
+        <Card className='shadow'>
             <Card.Header as="h5" className='d-flex justify-content-center bg-dark text-white'>
                 <h5>Structure your Pointers</h5>
                 <div className='position-absolute end-0 me-4'>

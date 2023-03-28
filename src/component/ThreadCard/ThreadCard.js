@@ -6,7 +6,7 @@ import ThreadSelect from '../ThreadSelect/ThreadSelect';
 
 const ThreadCard = () => {
     return (
-        <Card >
+        <Card className='shadow'>
             <Card.Header as="h5" className='d-flex justify-content-center bg-dark text-white'>
                 <h5>Threadbuild</h5>
                 <div className='position-absolute end-0 me-4'>
