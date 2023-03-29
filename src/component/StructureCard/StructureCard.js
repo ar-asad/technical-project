@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaInfoCircle } from 'react-icons/fa';
 import { BsArrow90DegLeft, BsArrow90DegRight, BsArrowsFullscreen, BsThreeDots } from "react-icons/bs";
-import { Card, Col, Form } from 'react-bootstrap';
+import { Card, Col, Form, Row } from 'react-bootstrap';
 
 const StructureCard = () => {
     return (
@@ -26,16 +26,23 @@ const StructureCard = () => {
                 <div className='mt-4 '>
                     <h5 className='mb-3'>Content</h5>
                     <div style={{ height: '200px' }} className='shadow p-4 '>
-                        <div className='d-flex  gap-3'>
-                            <p>File</p>
-                            <p>Edit</p>
+                        <Row className='  gap-3'>
+                            <Col><p>File</p></Col>
+                            <Col><p>File</p></Col>
+                            <Col><p>File</p></Col>
+                            <Col><p>File</p></Col>
+                            <Col><p>File</p></Col>
+                            <Col><p>File</p></Col>
+                            <Col><p>File</p></Col>
+                            <Col><p>File</p></Col>
+                            {/* <p>Edit</p>
                             <p>View</p>
                             <p>Insert</p>
                             <p>Format</p>
                             <p>Tools</p>
                             <p>Table</p>
-                            <p>Help</p>
-                        </div>
+                            <p>Help</p> */}
+                        </Row>
                         <div className='d-flex gap-3 align-items-center'>
                             <BsArrow90DegLeft />
                             <BsArrow90DegRight />

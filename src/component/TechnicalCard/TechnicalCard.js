@@ -1,8 +1,9 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import { FaInfoCircle } from "react-icons/fa";
 
-const TechnicalCard = () => {
+const TechnicalCard = ({ data }) => {
+    console.log(data)
     return (
         <Card className='shadow' >
             <Card.Header as="h5" className='d-flex justify-content-center bg-dark text-white'>

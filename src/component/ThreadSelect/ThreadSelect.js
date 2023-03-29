@@ -13,13 +13,13 @@ const ThreadSelect = () => {
                 <GiThreeLeaves />
             </div>
             <div className='d-flex gap-3'>
-                <select class="form-select border-0 shadow fw-bold" aria-label="Default select example">
+                <select className="form-select border-0 shadow fw-bold" aria-label="Default select example">
                     <option className='fw-bold' selected>Select Categ</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
                 </select>
-                <select class="form-select border-0 shadow fw-bold" aria-label="Default select example">
+                <select className="form-select border-0 shadow fw-bold" aria-label="Default select example">
                     <option selected>Select Proces</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
