@@ -13,12 +13,12 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
-                        className="ms-auto  my-lg-0 d-flex align-items-center"
+                        className="ms-auto  my-lg-0 d-flex gap-2 align-items-center"
                         style={{ maxHeight: '100px' }}
                         navbarScroll>
-                        <Nav.Link style={{ width: "40px", height: '40px' }} href="#action1" className='ms-2 bg-primary rounded-circle text-white d-flex justify-content-center align-items-center'><FaHome style={{ width: "22px", height: '22px' }} /></Nav.Link>
-                        <Nav.Link style={{ width: "40px", height: '40px' }} href="#action2" className='ms-2 bg-primary rounded-circle text-white d-flex justify-content-center align-items-center'><FaTools /></Nav.Link>
-                        <Nav.Link style={{ width: "40px", height: '40px' }} href="#action2" className='ms-2 bg-primary rounded-circle text-white d-flex justify-content-center align-items-center'><IoNotifications /></Nav.Link>
+                        <Nav.Link style={{ width: "40px", height: '40px' }} href="#action1" className=' bg-primary rounded-circle text-white d-flex justify-content-center align-items-center'><FaHome style={{ width: "22px", height: '22px' }} /></Nav.Link>
+                        <Nav.Link style={{ width: "40px", height: '40px' }} href="#action2" className=' bg-primary rounded-circle text-white d-flex justify-content-center align-items-center'><FaTools /></Nav.Link>
+                        <Nav.Link style={{ width: "40px", height: '40px' }} href="#action2" className=' bg-primary rounded-circle text-white d-flex justify-content-center align-items-center'><IoNotifications /></Nav.Link>
                         <Nav.Link href="#action2"><img style={{ width: '40px', height: '40px' }} src={img} alt="" /></Nav.Link>
                         <Nav.Link href="#" disabled>
                             <BsThreeDotsVertical />

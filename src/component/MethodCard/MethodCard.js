@@ -2,18 +2,19 @@ import React from 'react';
 import { Accordion, Button, Card, Col, Form, InputGroup } from 'react-bootstrap';
 import { FaInfoCircle } from 'react-icons/fa';
 
-const MethodCard = () => {
+const MethodCard = ({ data }) => {
+    const { asset_title, asset_description } = data;
     return (
         <Card className='shadow'>
             <Card.Header as="h5" className='d-flex justify-content-center bg-dark text-white'>
-                <h5>4SA Method</h5>
+                {asset_title}
                 <div className='position-absolute end-0 me-4'>
                     <FaInfoCircle />
                 </div>
             </Card.Header>
             <Card.Body>
                 <Card.Text>
-                    <span className='fw-bold'>Description: </span> To Explore more read more
+                    <span className='fw-bold'>Description: </span>{asset_description}
                 </Card.Text>
                 <hr />
                 <Accordion defaultActiveKey="0">

@@ -4,17 +4,18 @@ import { FaInfoCircle } from 'react-icons/fa';
 import Thred from '../Thread/Thred';
 import ThreadSelect from '../ThreadSelect/ThreadSelect';
 
-const ThreadCard = () => {
+const ThreadCard = ({ data }) => {
+    const { asset_title, asset_description } = data;
     return (
         <Card className='shadow'>
             <Card.Header as="h5" className='d-flex justify-content-center bg-dark text-white'>
-                <h5>Threadbuild</h5>
+                {asset_title}
                 <div className='position-absolute end-0 me-4'>
                     <FaInfoCircle />
                 </div>
             </Card.Header>
             <Card.Body>
-                <p className='mb-4'><span className='fw-bold'>Description: </span>Watch the vedio and threadbuild, and jot out key threads while watching the vedio</p>
+                <span className='fw-bold'>Description: </span>{asset_description}
                 <hr />
                 <Thred></Thred>
                 <ThreadSelect></ThreadSelect>

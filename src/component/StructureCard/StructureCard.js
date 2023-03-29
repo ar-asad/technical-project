@@ -3,18 +3,19 @@ import { FaInfoCircle } from 'react-icons/fa';
 import { BsArrow90DegLeft, BsArrow90DegRight, BsArrowsFullscreen, BsThreeDots } from "react-icons/bs";
 import { Card, Col, Form, Row } from 'react-bootstrap';
 
-const StructureCard = () => {
+const StructureCard = ({ data }) => {
+    const { asset_title, asset_description } = data;
     return (
         <Card className='shadow'>
             <Card.Header as="h5" className='d-flex justify-content-center bg-dark text-white'>
-                <h5>Structure your Pointers</h5>
+                {asset_title}
                 <div className='position-absolute end-0 me-4'>
                     <FaInfoCircle />
                 </div>
             </Card.Header>
             <Card.Body>
                 <Card.Text>
-                    <span className='fw-bold'>Description: </span> Story of Alignment Scope of Agility Specific Accountable Staggering Approach
+                    <span className='fw-bold'>Description: </span> {asset_description}
                 </Card.Text>
                 <hr />
                 <Form>

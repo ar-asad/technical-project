@@ -21,9 +21,9 @@ const AllCards = () => {
         <div className='container mb-5 position-relative '>
             <div className=' main-container'>
                 <TechnicalCard data={assets[0]} ></TechnicalCard>
-                <ThreadCard></ThreadCard>
-                <StructureCard></StructureCard>
-                <MethodCard></MethodCard>
+                <ThreadCard data={assets[1]}></ThreadCard>
+                <StructureCard data={assets[2]}></StructureCard>
+                <MethodCard data={assets[3]}></MethodCard>
             </div>
             <div style={{ bottom: '-100px', right: '-70px' }} className='d-flex flex-column position-absolute gap-3 '>
                 <BsFillQuestionSquareFill className='text-primary' style={style} />
