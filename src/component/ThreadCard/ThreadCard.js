@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Col } from 'react-bootstrap';
+import { Button, Card } from 'react-bootstrap';
 import { FaInfoCircle } from 'react-icons/fa';
 import Thred from '../Thread/Thred';
 import ThreadSelect from '../ThreadSelect/ThreadSelect';

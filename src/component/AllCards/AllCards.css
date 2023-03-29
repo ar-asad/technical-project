@@ -4,7 +4,9 @@
     gap: 35px;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 800px) {
     .main-container {
         grid-template-columns: 1fr;
     }

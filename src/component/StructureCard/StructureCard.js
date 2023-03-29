@@ -14,7 +14,7 @@ const StructureCard = () => {
             </Card.Header>
             <Card.Body>
                 <Card.Text>
-                    <p><span className='fw-bold'>Description: </span> Story of Alignment Scope of Agility Specific Accountable Staggering Approach</p>
+                    <span className='fw-bold'>Description: </span> Story of Alignment Scope of Agility Specific Accountable Staggering Approach
                 </Card.Text>
                 <hr />
                 <Form>
@@ -26,7 +26,7 @@ const StructureCard = () => {
                 <div className='mt-4 '>
                     <h5 className='mb-3'>Content</h5>
                     <div style={{ height: '200px' }} className='shadow p-4 '>
-                        <div className='d-flex gap-3'>
+                        <div className='d-flex  gap-3'>
                             <p>File</p>
                             <p>Edit</p>
                             <p>View</p>

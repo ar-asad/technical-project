@@ -13,7 +13,7 @@ const MethodCard = () => {
             </Card.Header>
             <Card.Body>
                 <Card.Text>
-                    <p><span className='fw-bold'>Description: </span> To Explore more read more</p>
+                    <span className='fw-bold'>Description: </span> To Explore more read more
                 </Card.Text>
                 <hr />
                 <Accordion defaultActiveKey="0">
